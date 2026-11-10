@@ -1,3 +1,44 @@
+bitcoin/
+├── vcpkg.json
+└── evidence/
+    ├── XA-BTC-VCPKG-UPSTREAM-IDENTITY-001.json
+    └── schemas/
+        ├── xa-btc-test-evidence-package.v1.0.1.schema.json
+        └── xa-btc-test-evidence-package.v1.0.2.schema.json
+
+
+
+{
+  "record_id": "XA-BTC-VCPKG-UPSTREAM-IDENTITY-001",
+  "version": "1.0",
+  "repository": "bitcoin/bitcoin",
+  "branch": "master",
+  "file": "vcpkg.json",
+  "git_object_format": "sha1",
+  "upstream_blob_sha": null,
+  "fork": "cyrillofrancisco30-lgtm/bitcoin",
+  "fork_blob_sha": null,
+  "source_identity": "NOT_ESTABLISHED",
+  "raw_sha256": null,
+  "raw_sha256_status": "PENDING_COMPUTATION",
+  "dependency_resolution": "NOT_ESTABLISHED",
+  "build_execution": "NOT_ESTABLISHED",
+  "test_execution": "NOT_ESTABLISHED",
+  "independent_verification": "NOT_ESTABLISHED"
+}
+
+
+{
+  "
+        "qttools",
+
+
+
+
+
+
+
+
 Bitcoin Core integration/staging tree
 =====================================
 
