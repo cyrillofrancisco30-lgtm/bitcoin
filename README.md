@@ -18,7 +18,7 @@
     "cryptographic_binding": "NOT_ESTABLISHED",
     "gt7_ledger_anchoring": "NOT_ESTABLISHED"
   },
-
+.
   "source": {
     "source_commit": null,
     "build_id": null,
