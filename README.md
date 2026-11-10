@@ -28,13 +28,17 @@ bitcoin/
 }
 
 
-[09/11, 17:15] Francisco: Manifest-Version: 1.0
+
+ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.7.1
 Created-By: 17.1-b03 (Sun Microsystems Inc.)
 Specification-Version: trunk-62
 Implementation-Version: trunk-62
 Main-Class: com.googlecode.sweetened.Version
-[09/11, 17:15] Francisco: Manifest-Version: 1.0
+
+
+
+ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.6.5
 Created-By: 11.0-b15 (Sun Microsystems Inc.)
 Sealed: true
@@ -44,6 +48,8 @@ Implementation-Vendor: wtkx@ant-googlecode
 Implementation-Version: 0.0.2
 Implementation-Title: ant-googlecode
 "The builtin-baseline corresponds to 2025.08.27 Release",
+
+
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
   "builtin-baseline": "120deac3062162151622ca4860575a33844ba10b",
   "dependencies": [
@@ -103,7 +109,8 @@ Implementation-Title: ant-googlecode
     }
   ]
 }
-[09/11, 17:20] Francisco: Bitcoin Core integration/staging tree
+
+ Bitcoin Core integration/staging tree
 =====================================
 
 https://bitcoincore.org
