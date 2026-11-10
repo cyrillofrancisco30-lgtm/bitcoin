@@ -1,3 +1,18 @@
+bitcoin/
+├── vcpkg.json
+└── evidence/
+    ├── XA-CERT-BTC-001.json
+    ├── XA-BTC-VCPKG-UPSTREAM-IDENTITY-001.json
+    ├── schemas/
+    │   ├── xa-btc-test-evidence-package.v1.0.1.schema.json
+    │   └── xa-btc-test-evidence-package.v1.0.2.schema.json
+    └── research/
+        ├── XA-BTC-SOURCE-AND-DEPENDENCY-RESEARCH-001.json
+        ├── vcpkg-baseline-2025.json
+        ├── java-jar-manifest-observations.json
+        └── bitcoin-core-documentation-references.json
+
+
 {
   "schema_version": "XA-CERT-BTC-v1.0",
   "record_id": "XA-CERT-BTC-001",
