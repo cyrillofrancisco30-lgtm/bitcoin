@@ -1,3 +1,73 @@
+{
+  "schema_version": "XA-CERT-BTC-v1.0",
+  "record_id": "XA-CERT-BTC-001",
+  "architecture": "XA-BTC-EVIDENCE-PIPELINE",
+
+  "declared_status": {
+    "pipeline_status": "COMPLETED",
+    "attestation_tier": "E5_VERIFIED_ANCHORED",
+    "gt7_ledger_status": "APPENDED_AND_SEALED"
+  },
+
+  "observed_status": {
+    "deployment": "NOT_ESTABLISHED",
+    "build": "NOT_ESTABLISHED",
+    "tests": "NOT_ESTABLISHED",
+    "artifacts": "NOT_ESTABLISHED",
+    "independent_verification": "NOT_ESTABLISHED",
+    "cryptographic_binding": "NOT_ESTABLISHED",
+    "gt7_ledger_anchoring": "NOT_ESTABLISHED"
+  },
+
+  "source": {
+    "source_commit": null,
+    "build_id": null,
+    "evidence_package": "xa_btc_evidence_v1.0.2.json",
+    "evidence_package_status": "NOT_INSPECTED"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "canonicalization_standard": "RFC8785",
+    "jcs_conformance": "NOT_ESTABLISHED",
+    "canonical_payload_jcs_sha256": null,
+    "raw_artifact_hash_validation": "NOT_ESTABLISHED"
+  },
+
+  "signature": {
+    "profile": "TRUST-SIGNATURE-PROFILE-ED25519-v1.0",
+    "algorithm": "Ed25519",
+    "signature_status": "NOT_IMPLEMENTED",
+    "key_id": null,
+    "signature": null,
+    "certificate_status": "NOT_ESTABLISHED"
+  },
+
+  "ledger": {
+    "ledger": "GT7",
+    "transaction_id": null,
+    "anchor_hash": null,
+    "anchoring_status": "NOT_ESTABLISHED"
+  },
+
+  "attestation": {
+    "attestation_status": "NOT_ISSUED",
+    "verification_result": "INSUFFICIENT_EVIDENCE",
+    "verification_scope": "XA-BTC-EVIDENCE-PIPELINE",
+    "independent_verifier": null,
+    "verification_report": null
+  },
+
+  "limitations": [
+    "The supplied Python serializer is not established as RFC 8785 compliant.",
+    "The supplied signature field is a placeholder, not a digital signature.",
+    "Verification gates must not be populated with success values without supporting evidence.",
+    "No GT7 ledger transaction was demonstrated.",
+    "No independent verification report was supplied."
+  ]
+}
+
+
 bitcoin/
 ├── vcpkg.json
 └── evidence/
